@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>site pessoal</title>   <!--TITULO DA PAGINA -->
+    <link rel="stylesheet" href="style.css"> <!--LINK PARA O CSS-->
+    <script src="script.js"></script> <!--LINK PARA O JAVA SCRIPT-->
+
+</head>
+
+<body>
+    <div id="menu-bar"> <!--MENU-->
+
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>  <!--BOTOES PARA  MENU-->
+
+            <ul class="nav" id="nav">
+
+                <li><a href="aventura.html"><h3> AVENTURA</h3></a></li>
+                <li>
+                    <a href="anime.html">
+                        <h3>ANIMES</h3>     <!--NOME DOS BOTOES -->
+                    </a>
+                </li>
+                <li><a href="terror.html"> <h3>TERROR</h3></a></li>
+                <li><a href="desenho.html"><h3>DESENHOS</h3></a></li>  <!--INDEX DAS PAGINAS LINKADOS-->
+                <li> <a href="#"><h3>FALE CONOSCO</h3></a></li>
+
+            </ul>
+
+        </div>
+       
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
+    <style>
+        
+         .container {  /*RAIO DOS CANTOS DO ELEMENTO*/
+            border-radius: 30px;/*BORDA ARREDONDADA*/
+            text-align: center;/*ALINHAMENTO NO CENTRO DA TELA*/
+            height: 1000px;/*ALTURA DO ELEMENTO*/
+            flex-wrap: wrap;/*ESPECIFICA SE OS ITENS FLEXIVEIS DEVEM SER AGRUPADOS OU NÃO*/
+            display: flex;/*ESPECIFICA O COMPORTAMENTO DE EXIBIÇÃO DE UM ELEMENTO*/ 
+            justify-content: center;/*ALINHA OS ITENS DO CONTAINER */
+
+        }
+
+        .elemento {
+            width: 200px;/*LARGURA DO ELEMENTO*/
+            height: 430px;/*ALTURA DO ELEMENTO*/
+            background-color: rgb(0, 0, 0);/*COR DE FUNDO*/
+            border: 2px solid white;/*DEFINE A BORDA*/
+            border-radius: 15px;/*BORDA ARREDONDADA*/
+            color: white;/*COLOCA A COR*/
+
+        }
+
+
+        .elemento2 {
+            width: 400px;/*LARGURA DO ELEMENTO*/
+            height: 230px;/*ALTURA DO ELEMENTO*/
+            background-color: rgb(247, 9, 9);/*DEFINE A COR DE FUNDO*/
+            border: 2px solid white;/*DEFINE A BORDA*/
+            color: white;/*DEFINE A COR*/
+        }
+
+        h1 {
+            color: rgb(7, 7, 7);/*DEFINE A COR*/
+            background-image: linear-gradient(to top, rgb(120, 118, 118), gray);/*DEGRADE DE CORES*/
+            border: 3px solid white;/*DEFINE A BORDA*/
+            border-radius: 15px;/*BORDA ARREDONDADA*/
+            text-align: center;/*ALINHAMENTO NO CENTRO DA TELA*/
+        }
+
+        h2 {
+            width: 100%;/*LARGURA DO ELEMENTO*/
+            height: 40px;/*ALTURA DO ELEMENTO*/
+            color: white;/*DEFINE A COR*/
+            background-image: linear-gradient(to top, black, gray);/*DEGRADE DE CORES*/
+            border: 3px solid white;/*DEFINE A BORDA*/
+            border-radius: 15px;/*BORDA ARREDONDADA*/
+            text-align: center;/*ALINHA NO CENTRO DA TELA*/
+        }
+
+
+        body {
+            background-image: url(estrela.jpg);/*ADICIONAR A IMAGEM*/
+            background-repeat: no-repeat;/*PARA A IMAGEM NAO SE REPETIR*/
+            background-size: 200%;/*TAMANHO DA IMAGEM*/
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h1> INFORMAÇÕES DE PERSONAGENS ALEATÓRIOS DE FICÇÃO </h1>
+        <div class="container">
+            <div class="elemento">
+                NEO (MATRIX) <!--NOME DO PERSONAGEM-->
+                <p><img src="985562.jpg" alt="" width="100%" height="190px"></a>O personagem Neo vive no mundo da
+                    Matrix, um ambiente ilusório em que os seres humanos são neuralmente ligados a um gigantesco sistema
+                    computacional que simula o mundo no período do século XX este sistema foi desenvolvido por uma
+                    inteligêcia artificial  <!-- INFORMAÇÃO DO PERSONAGEM-->
+
+            </div>
+            
+            <div class="elemento">
+                THOR (VINGADORES)  <!--NOME DO PERSONAGEM-->
+                <p><img src="thor.jpg" alt="" width="100%" height="190px"></a> o príncipe herdeiro de Asgard, banido à
+                    Terra e despojado de seus poderes depois que ele reinicia uma guerra antiga. Como seu irmão, Loki,
+                    planeja tomar o trono para ele mesmo, Thor deve provar ser digno e recuperar seu martelo, o
+                    Mjöllnir.<!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+            <div class="elemento">
+                SAM FLYNN (TRON)  <!--NOME DO PERSONAGEM-->
+                <p><img src="tron.jpg" alt="" width="100%" height="190px"></a>Kevin Flynn,é um gênio da informática
+                    que, um dia, desapareceu sem deixar vestígios. Seu filho Sam Flynn, na época com sete anos, é criado
+                    pelos avós e a empresa de Flynn, a Encom, é gerenciada pelos demais acionistas. Sam é levado a outro
+                    mundo tecnologico <!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+            <div class="elemento">
+                WOLVERINE (XMEN)  <!--NOME DO PERSONAGEM-->
+                <p><img src="wolverine.jpg" alt="" width="100%" height="190px"></a><br>O mutante nasceu no Canadá, na
+                    segunda metade do século 19. O rapaz era filho ilegítimo de Thomas Logan, o qual acabou sendo morto
+                    de forma acidental pelo filho. Em seguida, ele fugiu, adotou o nome Logan e viveu parte da sua vida
+                    no meio das florestas.<!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                OPTIMUS PRIME  <!--NOME DO PERSONAGEM-->
+                <p><img src="optimus.jpg" alt="" width="100%" height="190px"></a><br>Optimus Prime é o último
+                    descendente da Dinastia dos Primes e sucessor de Sentinel Prime. Em Cybertron, ele era apenas um
+                    operário da equipe de Sentinel Prime até descobrir suas origens e se tornar o líder dos Autobots. Na
+                    Terra, se transforma em um Peterbilt 379 com pintura de chamas.<!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                HARRY POTTER  <!--NOME DO PERSONAGEM-->
+                <p><img src="harry.jpg" alt="" width="100%" height="190px"></a><br>Harry Potter é um garoto órfão que
+                    vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em
+                    Hogwarts,, o guarda-caça de Hogwarts, que chega para levá-lo até a escola, vivendo diversas
+                    aventuras com seus novos amigos, Rony Weasley e Hermione Granger.<!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+            <div class="elemento">
+                JAKE (AVATAR)  <!--NOME DO PERSONAGEM-->
+                <p><img src="Jake.JPG" alt="" width="100%" height="190px"></a><br>Um ex-fuzileiro da terra futurista e
+                    devastada, colocado numa cadeira de rodas para todo o sempre após uma ferida na espinha enquanto
+                    esteve na Venezuela, ele foi recrutado por dois homens para prosseguir o trabalho do seu irmão gêmeo
+                    após a sua morte, para operar um avatar <!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                PANTERA NEGRA  <!--NOME DO PERSONAGEM-->
+                <p><img src="panter.jpg" alt="" width="100%" height="190px"></a><br>T'Challa foi o próximo na linha
+                    para ser o rei de Wakanda e o Pantera Negra, mas até que ele estava pronto para se tornar o líder da
+                    nação, seu tio S'yan (o irmão mais novo de T'Chaka) passou com sucesso as provas para se tornar o
+                    novo Pantera Negra <!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                CESAR <!--NOME DO PERSONAGEM-->
+                <p><img src="nego-ney.png" alt="" width="100%" height="190px"></a><br>César e seu gruposão forçados a
+                    entrar em uma guerra contra um exército de soldados liderados pelo impiedoso Coronel (Woody
+                    Harrelson) . Depois que vários macacos perdem suas vidas no conflito, César luta contra seus
+                    instintos e parte em busca de vingança. Dessa jornada, o futuro do planeta poderá estar em jogo. <!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                PARZIVAL <!--NOME DO PERSONAGEM-->
+                <p><img src="jogador.jpg" alt="" width="100%" height="190px"></a><br>Baseado no livro homônimo de
+                    Ernest Cline, o filme é ambientado no ano 2045. Com o mundo à beira do caos e do colapso, as pessoas
+                    encontraram refúgio no OASIS, um amplo universo de realidade virtual criado pelo genial e excêntrico
+                    James Halliday <!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                ROBOCOP <!--NOME DO PERSONAGEM-->
+                <p><img src="ROBO.jpg" alt="" width="100%" height="190px"></a><br>Policial é morto em combate e
+                    transformado por cientistas da empresa que dirige a força policial em um ciborgue ultrassofisticado
+                    a fim de ser usado na luta contra o crime na cidade de Detroit. Porém, apesar de ter sua memória
+                    apagada, lembranças o assombram e o levam a buscar vingança. <!-- INFORMAÇÃO DO PERSONAGEM--></p>
+            </div>
+
+            <div class="elemento">
+                 SUPERMAN  <!--NOME DO PERSONAGEM-->
+                <p><img src="super.jpg" alt="" width="100%" height="190px"></a><br>Pouco antes da destruição do planeta
+                    Krypton, o cientista Jor-El envia seu pequeno filho Kal-El em uma nave espacial à Terra. Criado
+                    pelos agricultores Jonathan e Martha Kent, o jovem Clark descobre a fonte de seus poderes
+                    sobre-humanos e se muda para Metrópolis para combater o mal.<!-- INFORMAÇÃO DO PERSONAGEM--> </p>
+            </div>
+           
+            <div>
+                <h1>DEIXE AQUI A SUA OPINIÃO SOBRE NOSSO SITE</h1>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGW-At8gg5EXQL1DSS6a87vzkHrcEYATOHlUW61OwYk4vX7A/viewform?embedded=true" width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                <!-- LINK DO FORMULARIO -->
+            </div>
+
+
+    </body>
+
+</html>
